@@ -1,0 +1,714 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.FirstScreen {
+  display: flex;
+}
+.foto {
+  width: 100%;
+}
+.Header {
+  display: flex;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  font-family: "Ibarra Real Nova";
+  font-size: 23px;
+}
+/*  тут второй заголовок*/
+.Header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  font-family: "Ibarra Real Nova";
+  font-size: 23px;
+}
+.Header_div {
+  font-family: "Ibarra Real Nova";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1mm;
+}
+#menu_html {
+  text-decoration: none;
+  color: #000000;
+}
+.head_left2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.head_right2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+}
+
+.LogoHeader2 {
+  height: 118px;
+  width: auto;
+  top: 10px;
+  margin-top: 10px;
+}
+#Gift_cards {
+  display: flex;
+}
+/* конец 2го заголовка */
+.page2_3 {
+  max-width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* max-height: max-content; */
+}
+.page2_3_1 {
+  max-width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* max-height: max-content; */
+}
+.page2AboutUs {
+  width: 50%;
+  padding: 120px 120px 120px 120px;
+}
+.page2Img {
+  width: 50%;
+  max-height: auto;
+  align-content: center;
+  flex-shrink: 0;
+}
+#AboutUs {
+  font-family: "Ibarra Real Nova";
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1mm;
+}
+.AboutUsText {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #000000;
+}
+@media (max-width: 1828px) {
+  .AboutUsText {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1594px) {
+  .AboutUsText {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+/* ____________________________________________________ */
+.page_slider_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GALLERY {
+  padding: 30px 20px 20px 20px;
+}
+#GALLERY {
+  font-family: "Ibarra Real Nova";
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1mm;
+  align-items: center;
+  margin: 0;
+}
+.GALLERY_SLIDES {
+  background-color: rgb(247, 247, 247);
+  margin: 0px 80px 0px 80px;
+}
+/* ------------------------------  Slider ---------------------------------*/
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+}
+.slider__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Gallery1 {
+  width: 1460px;
+  height: 850px;
+}
+.Gallery2 {
+  width: 1460px;
+  height: 850px;
+}
+.Gallery3 {
+  width: 1460px;
+  height: 850px;
+}
+.Gallery4 {
+  width: 1460px;
+  height: 850px;
+}
+.Gallery5 {
+  width: 1460px;
+  height: 850px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url(img/Slider_left.svg) 0 0 / 100% no-repeat;
+  border: 0;
+  margin-left: 20px;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url(img/Slider_right.svg) 0 0 / 100% no-repeat;
+  border: 0;
+  margin-right: 20px;
+}
+.slider {
+  position: relative;
+  padding: 30px 142px;
+}
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 47px;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+  margin: auto;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+/* .slick-loading .slick-track {
+   visibility: hidden; 
+} */
+
+.slick-slide {
+  display: none;
+  float: left;
+
+  height: 100%;
+  min-height: 1px;
+}
+/* [dir="rtl"] .slick-slide {
+  float: right;
+} */
+/* .slick-slide img {
+  display: block;
+} */
+/* .slick-slide.slick-loading img {
+  display: none;
+} */
+/* .slick-slide.dragging img {
+  pointer-events: none;
+} */
+.slick-initialized .slick-slide {
+  display: block;
+}
+/* .slick-loading .slick-slide {
+  visibility: hidden;
+} */
+/* .slick-vertical .slick-slide {
+  display: block;
+
+  height: auto;
+
+  border: 1px solid transparent;
+} */
+/* .slick-arrow.slick-hidden {
+  display: none;
+} */
+
+/* ________________VOUTCHERS AND CARDS________________ */
+#outer {
+  /* width: 100%; */
+  background-image: url(img/Cards.png);
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  height: 1000px;
+}
+.CONTAINER_OUTER {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container_gift_vouchers {
+  width: 40%;
+  color: rgb(255, 255, 255);
+  /* position: absolute; */
+  top: 7%;
+  left: 6%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 41%;
+  height: 86%;
+  margin-right: 20px;
+}
+.container_gift_vouchers_white {
+  background: rgb(190, 186, 186);
+  opacity: 90%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.container_gift_cards {
+  width: 40%;
+  color: rgb(255, 255, 255);
+  /* position: absolute; */
+  top: 7%;
+  right: 6%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 41%;
+  height: 86%;
+  margin-left: 20px;
+}
+.container_gift_cards_white {
+  background: rgb(190, 186, 186);
+  opacity: 90%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.CARD {
+  opacity: none;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: max-content;
+  width: 100%;
+  height: 100%;
+}
+
+#button_frame1 {
+  width: 270px;
+  height: 41px;
+  border: solid 3px rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 30px 0;
+  font-size: 22px;
+}
+#button_frame1:hover {
+  background-color: rgb(187, 184, 184);
+  color: rgb(255, 255, 255);
+  font-style: inherit;
+}
+.TEXT_ITEM_P {
+  font-size: 28px;
+  margin: 12px 35px 0;
+}
+@media (max-width: 1500px) {
+  .TEXT_ITEM_P {
+    font-size: 26px;
+    margin: 0px 35px 0;
+  }
+  .CARD {
+    margin-bottom: 0px;
+    width: 86%;
+    height: 41%;
+  }
+}
+
+.GIFT_CARDS_HEAD {
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+.Head_p6-7 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  margin-bottom: 80px;
+}
+@media (max-width: 1828px) {
+  .Head_p6-7 {
+    margin-bottom: 0px;
+  }
+}
+.p_6-7 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+}
+.p_6-7-1 {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 34px;
+  color: #000000;
+}
+@media (max-width: 1802px) {
+  .p_6-7-1 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}
+.page2AboutUs_6 {
+  padding: 110px 110px 110px 110px;
+}
+.page2AboutUs_7 {
+  padding: 110px 110px 110px 110px;
+}
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+}
+.footer_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.block_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.block_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.icons_mediastore {
+  width: 238px;
+  height: 46px;
+  left: 1298px;
+  top: 7651px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer */
+.icon_footer {
+  width: 44px;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+}
+.button_footer {
+  width: 245px;
+  height: 45px;
+  left: 580px;
+  top: 7652px;
+  margin: 10px 30px 10px 0px;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  color: #000000;
+  border: 1px solid #585858;
+}
+.textarea_button {
+  width: 534px;
+  height: 50px;
+  display: flex;
+}
+.textarea_footer {
+  width: 340px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #585858;
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.32em;
+  color: #585858;
+}
+.button_footer3 {
+  width: 163px;
+  height: 48px;
+  background: #585858;
+  border: 1px solid #d9d9d9;
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.text_footer_1 {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.11em;
+  color: #585858;
+}
+.text_footer_2 {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #585858;
+}
+/* шрифты */
+@font-face {
+  font-family: "Homenaje";
+  src: url("fonts/Homenaje-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (max-width: 1454px) {
+  .page2_3 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .page2AboutUs {
+    width: 70%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .page2Img {
+    width: 100%;
+    max-height: auto;
+    align-content: center;
+    flex-shrink: 0;
+  }
+  #AboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .p_6-7-1 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .AboutUsText {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  /* ___________________________________________________ */
+  #page2Img_2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .page2AboutUs_6 {
+    padding: 0px;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .p_6-7 {
+    /* width: 70%; */
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .Head_p6-7 {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .page2AboutUs_7 {
+    padding: 0px;
+    width: 70%;
+    margin-bottom: 30px;
+  }
+  .page2_3_1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* header */
+@media (max-width: 1250px) {
+  .Header_div {
+    font-size: 22px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+  }
+  .head_left2 {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .head_right2 {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1032px) {
+  .head_left2,
+  .head_right2 {
+    display: none;
+  }
+}
+/* -----footer */
+@media (max-width: 1032px) {
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+}
+/* ________cards___________ */
+@media (max-width: 992px) {
+  .CONTAINER_OUTER {
+    display: flex;
+    align-items: center;
+  }
+  .CARD {
+    width: 80%;
+    height: auto;
+    margin: 0%;
+  }
+  .gift {
+    margin: 0;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .GIFT_VOUCHERS_ITEM {
+    /* margin: 0px; */
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .GIFT_CARDS_ITEM {
+    /* margin: 0px; */
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .container_gift_vouchers {
+    align-items: center;
+  }
+  .container_gift_vouchers_white {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .container_gift_cards {
+  }
+  .container_gift_cards_white {
+    width: 100%;
+    justify-content: space-around;
+  }
+}

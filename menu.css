@@ -1,0 +1,361 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.container {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.FirstScreen {
+  display: flex;
+}
+.foto {
+  width: 100%;
+}
+.Header {
+  display: flex;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  font-family: "Ibarra Real Nova";
+  font-size: 23px;
+}
+#home_html {
+  text-decoration: none;
+  color: #000000;
+}
+/*  тут второй заголовок*/
+.Header2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 125px;
+  font-family: "Ibarra Real Nova";
+  font-size: 23px;
+}
+.Header_div {
+  font-family: "Ibarra Real Nova";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1mm;
+}
+.head_left2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+.head_right2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+}
+.LogoHeader2 {
+  height: 118px;
+  width: auto;
+  top: 10px;
+  margin-top: 10px;
+}
+#Gift_cards {
+  display: flex;
+}
+/* --------------------Menu-------------------- */
+.container_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 0px;
+  margin-top: 150px;
+  /* max-width: 95%; */
+}
+.menu {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 80px;
+  color: #000000;
+}
+.appetizer {
+  display: flex;
+  flex-direction: column;
+}
+.head_block {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #255052;
+  margin-top: 50px;
+}
+/* -----------------------new */
+.dish_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.hidd {
+  width: 25%;
+}
+.text_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head_dish_right {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #585858;
+}
+.description_right {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #585858;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.dishes {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 67px;
+}
+.dish_left {
+  display: flex;
+  width: 100%;
+}
+.text_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head_dish_left {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #585858;
+}
+.description_left {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #585858;
+}
+.Vegeterian {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.vegan {
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #585858;
+  margin: 0 20px 0 20px;
+}
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: white;
+}
+.footer_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.block_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.block_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.icons_mediastore {
+  width: 238px;
+  height: 46px;
+  left: 1298px;
+  top: 7651px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon_footer {
+  width: 44px;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+}
+.button_footer {
+  width: 245px;
+  height: 45px;
+  left: 580px;
+  top: 7652px;
+  margin: 10px 30px 10px 0px;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  color: #000000;
+  border: 1px solid #585858;
+}
+.textarea_button {
+  width: 534px;
+  height: 50px;
+  display: flex;
+}
+.textarea_footer {
+  width: 340px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #585858;
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.32em;
+  color: #585858;
+}
+.button_footer3 {
+  width: 163px;
+  height: 48px;
+  background: #585858;
+  border: 1px solid #d9d9d9;
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+.text_footer_1 {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.11em;
+  color: #585858;
+}
+.text_footer_2 {
+  font-family: "Homenaje";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #585858;
+}
+/* шрифты */
+@font-face {
+  font-family: "Homenaje";
+  src: url("fonts/Homenaje-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* footer */
+@media (max-width: 1032px) {
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+}
+/* ============================================== */
+@media (max-width: 1400px) {
+  .img_dish_left {
+    width: 60%;
+  }
+  .img_dish_right {
+    width: 60%;
+  }
+  .head_dish_right {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .description_right {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .head_dish_left {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .description_left {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .vegan {
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1300px) {
+  .head_left2,
+  .head_right2 {
+    display: none;
+  }
+}
